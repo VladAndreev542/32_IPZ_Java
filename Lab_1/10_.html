@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript">
+        var arr = []; 
+        arr[0] = { name: "Andriy", model: "Ford", vol:  2}
+        arr[1] = { name: "Svitlana", model: "BMW", vol:  3}
+        arr[2] = { name: "Roma", model: "Honda", vol:  5}
+        arr[3] = { name: "Yan", model: "Audi", vol:  3}
+        let min = arr[0].vol;
+        for (var i = 0; i < arr.length; i++) {
+	        if (arr.vol < min) {
+	        min=arr.vol;
+	        }
+        }
+        document.write("Мінімальни обєм двигуна "+ min);
+        </script>
+    </head>
+<body>
+</body>
+</html>
